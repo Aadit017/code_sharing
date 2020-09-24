@@ -84,15 +84,17 @@ def replay(board,winner):
     print(board[0]+"|"+board[1]+"|"+board[2])
     print("winner is "+winner.upper())
     again=" "
+    a=0
     while again not in (['Yes','No']):
         again=input("wanna play again :'Yes' or 'No'")
     if again=='Yes': 
         print("press enter to be sure")
-        wait('enter')
-        display(board_1,0)
+        display(board_1,a)
     else: 
+  
         print('ThankYou')
-display(board,0)
+a=0
+display(board,a  )
     
    
    
