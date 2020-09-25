@@ -1,0 +1,21 @@
+import java.util.*; 
+class Solution{ 
+    public static void main (String args[]){ 
+        Scanner sc =new Scanner (System.in);
+        System.out.println(" please enter a number");
+        int n=sc.nextInt();
+         int sum=function(n);
+        System.out.println(sum);
+         sc.close();
+    }
+ static int function(int n ){
+     if (n==0){ 
+         return 0;
+     } 
+     else { 
+         return ((n%10)*(n%10) + function(n/10)); 
+
+     }
+     }
+
+ } 
