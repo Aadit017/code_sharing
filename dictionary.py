@@ -1,0 +1,9 @@
+a={1,2,3,4,5}
+#a[1]=99
+print(a)
+b={"arsh":"gupta","archit":"guptaa"}
+#print(b)
+dict={"name":"arsh","dept":"cs"}
+#print(dict)
+print(dict.keys)
+print(dict["name"])
