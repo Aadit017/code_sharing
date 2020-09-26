@@ -1,0 +1,8 @@
+def check(string,sub): 
+    if (string.find(sub)==-1): 
+        return False 
+    else :
+        return True 
+string=input(" enter the string-")
+sub=input("enter the sub-")
+print(check(string,sub))
