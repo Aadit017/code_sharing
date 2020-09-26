@@ -1,0 +1,15 @@
+def sum(n): 
+    return n
+size=int(input(" please enter the size of the array "))
+size=size-1
+lst=[]
+c=0
+for i in range(0,size+1): 
+   c=int(input("enter elements:- "))
+  
+   lst.append(c)
+total=0
+for i in range(0,size+1): 
+    total+=sum(lst[i])
+print(total)
+    
