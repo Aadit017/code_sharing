@@ -1,0 +1,12 @@
+c=0
+lst=[] 
+size=int(input(" enter the size "))
+for i in range(0,size): 
+    c=int(input("-"))
+    lst.append(c)
+mult=1
+for i in range(0,size): 
+    mult*=lst[i]
+print(" the product is ",mult)
+
+    
