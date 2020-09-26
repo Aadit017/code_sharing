@@ -1,0 +1,14 @@
+def splitArray(arr,position):
+    b=arr[:position] 
+    return arr[position::]+b[::]  
+size=int(input( "please enter the size "))
+c=0
+lst=[]
+for i in range(0,size): 
+    c=int(input("enter the number="))
+    lst.append(c)
+print(lst)
+cut=int(input(" please enter the value to be cut "))
+ar=splitArray(lst,cut-1)
+for i in range(0,len(ar)):
+    print(ar[i],end=' ')
