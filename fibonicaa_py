@@ -1,0 +1,12 @@
+def fibonicca(n): # n is for the number of terms and not the sum 
+    a,b=1,1
+    print('1'+" default statement ")
+    print('1'+" default statement ")
+    for i in range(0,n+1): 
+        sum=a+b
+        print(sum)
+        a,b=b,sum
+n=int(input(" please enter the number of terms "))
+fibonicca(n)
+        
+    
