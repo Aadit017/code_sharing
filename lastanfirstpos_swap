@@ -1,0 +1,12 @@
+lst=[] 
+c=0
+for i in range(0,5): 
+    c=int(input("enter"))
+    lst.append(c)
+for i in range(0,5): 
+    print(lst[i],end=' ')
+print(" \n")
+lst[0],lst[4]=lst[4],lst[0]
+for i in range(0,5): 
+    print(lst[i],end=' ')
+    
